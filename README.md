@@ -5,6 +5,10 @@
 Although most of the important guidelines are listed here, there may be things that were missed!  If you feel confused about something and think it should be addressed here,
 please submit an issue.  You can learn how to do this [here](https://help.github.com/articles/creating-an-issue/).
 
+If you feel like something is missing and are knowledgable about it, submit a PR!  Be sure to add examples and links for your guidelines.  You can either create a new section, or
+contribute to an existing one.  If your guideline is language specific, please create a new directory with the name of the language, and a README within that directory that
+describes your guidelines for that given language.
+
 
 ## Using Git and Github :octocat:
 
@@ -65,6 +69,19 @@ not be merged.
 anybody submitting broken code in PRs!  Take pride in your code and make sure that it is everything it is intended to be! :smiley:
 
 TL;DR **TEST YOUR CODE**
+
+
+## Code Review :white_check_mark:
+
+* To learn how to do a code review (otherwise known as a Pull Request Review), see [here](https://help.github.com/articles/about-pull-request-reviews/).
+
+* Whenever you are doing a code review, ensure that what you are reviewing adheres to the guidelines in this file.
+Do not approve any code that does not follow these guidelines, but rather leave comments on what must be fixed in order to follow proper guidelines in your review.
+
+* Ensure that the code you are reviewing is well documented, and can be understood by those who look at it in the future. Think: *maintainability*!
+
+* Leave comments anywhere that you feel needs to be changed.  Be sure to review thoroughly!  Try your best to catch everything you can, even spelling errors.  We want to
+make our code as readable and maintainable as possible, so every detail matters.
 
 
 ## Proper Documentation :books:
